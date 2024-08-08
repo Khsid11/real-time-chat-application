@@ -1,4 +1,4 @@
-#BENZO an Chat ROOM Application
+#BENZO an Room Chat Application
 
 This is a real-time chat application built with Node.js, Express, and Socket.io. It allows multiple users to join the chat, send text messages, and share files such as images and documents.
 
