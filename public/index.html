@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css">
+  <title>BENZO</title>
+</head>
+<body>
+  <div class="login-container" id="login-container">
+    <input type="text" id="username-input" placeholder="Enter your username" />
+    <button id="login-button">Login</button>
+  </div>
+  <div class="chat-container" id="chat-container" style="display:none;">
+    <header>
+      <h1>BENZO</h1>
+      <button id="logout-button">Logout</button>
+    </header>
+    <main id="message-container" class="message-container"></main>
+    <footer>
+      <input type="text" id="message-input" class="message-input" placeholder="Type your message...">
+      <button id="send-message-button" class="send-button">
+        <span>Send</span>
+        <i class="fas fa-paper-plane"></i>
+      </button>
+      <button id="send-file-button" class="file-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+      <input type="file" id="file-input" style="display:none;">
+    </footer>
+  </div>
+  <!-- <h3 class="clients-total" id="client-total">Total clients: 0</h3> -->
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
