@@ -13,19 +13,19 @@ This is a real-time chat application built with Node.js, Express, and Socket.io.
 ## Screenshots
 
 ### Login Screen
-![Login Screen](Screenshot (232).png)
+![Login Screen](Screenshot%20(232).png)
 
 ### Chat Screen
-![Chat Screen](Screenshot (233).png)
+![Chat Screen](Screenshot%20(233).png)
 
 ### File Sharing
-![File Sharing](Screenshot (236).pngg)
+![File Sharing](Screenshot%20(236).png)
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/khsid11/chat-application.git
+    git clone https://github.com/your-username/chat-application.git
     ```
 
 2. Navigate to the project directory:
@@ -50,6 +50,10 @@ This is a real-time chat application built with Node.js, Express, and Socket.io.
 1. Enter a unique username to join the chat.
 2. Type your message and click the "Send" button or press Enter to send it.
 3. Click the file upload button to share files. Supported file types include images and PDFs.
+
+## Project Structure
+
+
 
 ## Project Structure
 
